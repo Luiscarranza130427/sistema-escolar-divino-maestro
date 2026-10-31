@@ -1,0 +1,4 @@
+# Protección por si el servidor apunta a la raíz del proyecto en vez de a public/.
+# Bloquea config/, app/, database/, doc-exel/, .env, etc. Solo public/ es accesible.
+Options -Indexes
+Require all denied

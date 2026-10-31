@@ -1,0 +1,27 @@
+# Credenciales locales
+.env
+
+# Datos personales de estudiantes y familias: nunca subir al repositorio
+doc-exel/
+*.xlsx
+*.xls
+*.csv
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencias de Composer
+/vendor/
+.phpunit.cache/
+
+# Fotos de perfil subidas por los usuarios
+/public/uploads/
+
+# Respaldo completo de la base (contiene datos personales y contraseñas cifradas)
+/database/respaldo/
+
+# Foto de una persona real, no usada por la aplicación
+/frontend/public/imagen-directora.png
